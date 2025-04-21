@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -10,8 +9,6 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <div id="particles-js"></div>
-    
     <header>
         <nav>
             <div class="logo">V<span class="neon-text">.</span></div>
@@ -28,7 +25,7 @@
         <div class="container" data-aos="fade-up">
             <h1>Vitor<span class="neon-text">.</span></h1>
             <h2>Backend Developer</h2>
-            <p class="typing-text">Construindo soluções robustas e escaláveis</p>
+            <p class="typing-text">Desenvolvedor apaixonado por tecnologia desde criança, com vasta experiência em diversas linguagens de programação e desenvolvimento de sistemas. Busco constantemente inovação e soluções eficazes. Atualmente, curso Analise e Desenvolvimento de Sistemas e estou sempre aprimorando minhas habilidades em TI.</p>
         </div>
     </section>
 
@@ -186,18 +183,38 @@
         <div class="container" data-aos="fade-up">
             <h2>Contato</h2>
             <div class="contato-content">
+                <div class="email-container">
+                    <p class="email-text">test@gmail.com</p>
+                    <button class="copy-btn" aria-label="Copiar email">
+                        <i class="far fa-copy"></i>
+                        <span class="tooltip">Copiar</span>
+                    </button>
+                    <div class="copy-alert">
+                        <i class="fas fa-check"></i>
+                        Copiado!
+                    </div>
+                </div>
+                
                 <div class="social-links">
-                    <a href="https://github.com/seu-usuario" class="social-btn">
-                        <i class="fab fa-github"></i>
-                        GitHub
-                    </a>
-                    <a href="https://linkedin.com/in/seu-usuario" class="social-btn">
-                        <i class="fab fa-linkedin"></i>
-                        LinkedIn
-                    </a>
-                    <a href="mailto:seu.email@exemplo.com" class="social-btn">
+                    <a href="mailto:test@gmail.com" class="social-btn email-btn" aria-label="Enviar email">
                         <i class="fas fa-envelope"></i>
-                        Email
+                        <span>Enviar Email</span>
+                    </a>
+                    
+                    <a href="https://github.com/vito-ysl" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="social-btn github-btn">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/vito-ysl" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="social-btn linkedin-btn">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
                     </a>
                 </div>
             </div>
@@ -211,7 +228,6 @@
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

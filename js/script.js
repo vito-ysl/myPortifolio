@@ -4,67 +4,6 @@ AOS.init({
     once: true
 });
 
-// Initialize Particles.js
-particlesJS('particles-js',
-    {
-        "particles": {
-            "number": {
-                "value": 80,
-                "density": {
-                    "enable": true,
-                    "value_area": 800
-                }
-            },
-            "color": {
-                "value": "#00f7ff"
-            },
-            "shape": {
-                "type": "circle"
-            },
-            "opacity": {
-                "value": 0.5,
-                "random": false
-            },
-            "size": {
-                "value": 3,
-                "random": true
-            },
-            "line_linked": {
-                "enable": true,
-                "distance": 150,
-                "color": "#00f7ff",
-                "opacity": 0.4,
-                "width": 1
-            },
-            "move": {
-                "enable": true,
-                "speed": 6,
-                "direction": "none",
-                "random": false,
-                "straight": false,
-                "out_mode": "out",
-                "bounce": false
-            }
-        },
-        "interactivity": {
-            "detect_on": "canvas",
-            "events": {
-                "onhover": {
-                    "enable": true,
-                    "mode": "repulse"
-                },
-                "onclick": {
-                    "enable": true,
-                    "mode": "push"
-                },
-                "resize": true
-            }
-        },
-        "retina_detect": true
-    }
-);
-
-// Typing effect
 const typing = document.querySelector('.typing-text');
 const text = typing.textContent;
 typing.textContent = '';
@@ -110,4 +49,25 @@ window.addEventListener('scroll', () => {
             link.classList.add('active');
         }
     });
+});
+
+// Email copy functionality
+const copyBtn = document.querySelector('.copy-btn');
+const emailText = document.querySelector('.email-text');
+const copyAlert = document.querySelector('.copy-alert');
+
+copyBtn.addEventListener('click', async () => {
+    try {
+        await navigator.clipboard.writeText(emailText.textContent);
+        
+        // Mostra o alerta
+        copyAlert.classList.add('show');
+        
+        // Remove o alerta após 2 segundos
+        setTimeout(() => {
+            copyAlert.classList.remove('show');
+        }, 2000);
+    } catch (err) {
+        console.error('Failed to copy text: ', err);
+    }
 });
