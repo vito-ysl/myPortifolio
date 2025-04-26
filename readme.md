@@ -8,35 +8,33 @@ Um portfólio moderno e interativo desenvolvido para desenvolvedores backend, co
 
 - **Design Dark Mode** com detalhes em neon
 - **Animações Suaves** usando AOS (Animate On Scroll)
-- **Efeito Particles.js** para background interativo
-- **100% Responsivo**
+- **Layout Responsivo** e moderno
 - **Seções Interativas**:
-  - Hero com efeito de digitação
-  - Sobre
-  - Skills com cards animados
-  - Projetos com hover effects
-  - Contato com funcionalidades
+  - Hero com apresentação profissional
+  - Sobre com experiência e especialidades
+  - Skills com cards organizados por categorias
+  - Projetos destacados
+  - Contato integrado
 
 ## 🛠 Tecnologias Utilizadas
 
 - HTML5
 - CSS3 (Flexbox & Grid)
-- JavaScript (Vanilla)
+- JavaScript
 - [AOS](https://michalsnik.github.io/aos/) - Animate On Scroll Library
-- [Particles.js](https://vincentgarreau.com/particles.js/) - Background Animation
 - [Font Awesome](https://fontawesome.com/) - Ícones
 
 ## 🎨 Features de Design
 
 - **Tema Dark**: Esquema de cores escuro com detalhes em neon
 - **Cards Interativos**: Efeitos hover e animações suaves
-- **Typography**: Fonte 'Inter' para melhor legibilidade
-- **Ícones Animados**: Integração com Font Awesome
-- **Efeitos Visuais**: Sombras neon e transições suaves
+- **Typography**: Fonte moderna para melhor legibilidade
+- **Ícones**: Integração com Font Awesome
+- **Efeitos Visuais**: Sombras e transições suaves
 
 ## 📱 Responsividade
 
-- Layout fluido adaptável a diferentes tamanhos de tela
+- Layout fluido adaptável
 - Design mobile-first
 - Breakpoints otimizados
 - Menu responsivo
@@ -61,13 +59,14 @@ python -m http.server 8000
 ## 📋 Estrutura do Projeto
 
 ```
-portfolio-backend/
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── images/
-│   └── logo.jpeg
+portfolio/
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   └── img/
+│       └── favicon-32x32.png
 ├── index.html
 └── README.md
 ```
@@ -76,33 +75,19 @@ portfolio-backend/
 
 - **Navegação Suave**
 - **Animações ao Scroll**
-- **Copyboard para Email**
-- **Links Sociais Interativos**
-- **Cards de Projetos Animados**
-- **Skills com Ícones**
-
-## 🔧 Customização
-
-O projeto é facilmente customizável através das variáveis CSS:
-
-```css
-:root {
-    --bg-dark: #0a0a0a;
-    --text-primary: #ffffff;
-    --neon-blue: #00f7ff;
-    --neon-purple: #bc13fe;
-    --card-bg: #111111;
-}
-```
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+- **Skills Organizadas por Categorias**:
+  - Linguagens de Programação
+  - Bancos de Dados
+  - Frameworks
+  - Ferramentas
+- **Cards de Projetos**
+- **Links de Contato**
 
 ## 📬 Contato
 
-- Website - [Ainda não ta Online](https://seu-portfolio.com)
 - GitHub - [@vito-ysl](https://github.com/vito-ysl)
+- LinkedIn - [Vitor Y.](https://linkedin.com/in/vitor-ysl)
+- Email - [vitor.dev@gmail.com](mailto:vitorevangelista0557@gmail.com)
 
 ---
 
