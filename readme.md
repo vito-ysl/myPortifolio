@@ -86,8 +86,8 @@ portfolio/
 ## 📬 Contato
 
 - GitHub - [@vito-ysl](https://github.com/vito-ysl)
-- LinkedIn - [Vitor Y.](https://linkedin.com/in/vitor-ysl)
-- Email - [vitor.dev@gmail.com](mailto:vitorevangelista0557@gmail.com)
+- LinkedIn - [Vito-ysl](https://linkedin.com/in/vitor-ysl)
+- Email - [vitorevangelista0557@gmail.com](mailto:vitorevangelista0557@gmail.com)
 
 ---
 
