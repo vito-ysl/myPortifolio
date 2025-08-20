@@ -85,6 +85,45 @@ nav a:hover {
     font-size: 4rem;
     margin-bottom: 1rem;
 }
+.hero-img {
+    width: 200px;
+    height: auto;
+    border-radius: 2%;
+    margin-top: 1rem;
+    box-shadow: 0 0 20px rgba(0, 247, 255, 0.2);
+}
+
+.typing-text {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    font-size: 1rem;
+    
+
+}
+
+.particle {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    border-radius: 12%;
+    background: var(--neon-blue);
+    pointer-events: none;
+    opacity: 0.4;
+    animation: explode 900ms forwards;
+}
+
+@keyframes explode {
+    from {
+        transform: translate(0, 0) scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: translate(var(--dx), var(--dy)) scale(0.3);
+        opacity: 0;
+    }
+}
 
 .neon-text {
     color: var(--neon-blue);
@@ -119,6 +158,11 @@ h2 {
 
 .skill-category:hover {
     transform: translateY(-5px);
+}
+
+.skill-category h3 {
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 .skill-items {
@@ -160,10 +204,17 @@ h2 {
     padding: 2rem;
 }
 
+.card-content h3 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
 .tech-stack {
     display: flex;
     gap: 1rem;
     margin: 1rem 0;
+    text-align: center;
+    align-items: center;
 }
 
 .tech-stack span {
@@ -262,8 +313,10 @@ h2 {
     visibility: hidden;
     transform: translateX(100%);
     transition: all 0.3s ease;
-    z-index: 9999; /* Ensure it's above all other elements */
-    box-shadow: 0 4px 15px rgba(0, 247, 255, 0.3); /* Optional: adds depth */
+    z-index: 9999;
+    /* Ensure it's above all other elements */
+    box-shadow: 0 4px 15px rgba(0, 247, 255, 0.3);
+    /* Optional: adds depth */
 }
 
 .copy-alert.show {
@@ -325,19 +378,19 @@ footer {
     nav ul {
         display: none;
     }
-    
+
     #hero h1 {
         font-size: 3rem;
     }
-    
+
     .skills-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .projetos-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .contato-content {
         flex-direction: column;
     }
@@ -346,11 +399,11 @@ footer {
         flex-direction: column;
         padding: 1rem;
     }
-    
+
     .social-links {
         flex-direction: column;
     }
-    
+
     .social-btn {
         width: 100%;
         justify-content: center;
