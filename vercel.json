@@ -1,5 +1,9 @@
 {
   "buildCommand": "next build",
   "outputDirectory": ".next",
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "nodejs": "20.x",
+  "env": {
+    "NEXT_PUBLIC_VERCEL_ENV": "production"
+  }
 }
