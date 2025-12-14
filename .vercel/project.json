@@ -1,0 +1,10 @@
+{
+  "projectId": "",
+  "orgId": "",
+  "settings": {
+    "buildCommand": "next build",
+    "outputDirectory": ".next",
+    "framework": "nextjs",
+    "nodejs": "20.x"
+  }
+}
