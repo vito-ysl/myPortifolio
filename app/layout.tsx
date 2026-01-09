@@ -1,10 +1,12 @@
+import './globals.css';
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="en">
       <head>
         <title>Vitor Portifolio</title>
         <meta charSet="utf-8" />
