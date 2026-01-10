@@ -281,32 +281,18 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function Experience() {
     const experiences = [
         {
-            title: 'Full Stack Developer',
-            company: 'Empresa XYZ',
+            title: 'Junior Developer',
+            company: 'Prefeitura Municipal de Presidente Bernades',
             period: '2024 - Presente',
-            description: 'Desenvolvimento de aplicações web usando React e Node.js. Implementação de APIs REST e integração com banco de dados.',
+            description: 'Desenvolvimento de aplicações web usando React e Next.js. Implementação de APIs REST e integração com banco de dados.',
             tags: [
                 'React',
-                'Node.js',
+                'Next.js',
                 'TypeScript'
             ],
             borderColor: '[#a7c957]',
             dotColor: '[#a7c957]',
             delay: '0.1s'
-        },
-        {
-            title: 'Frontend Developer',
-            company: 'Startup ABC',
-            period: '2023 - 2024',
-            description: 'Criação de interfaces responsivas e otimizadas. Trabalho em equipe com design e backend.',
-            tags: [
-                'React',
-                'Tailwind',
-                'Next.js'
-            ],
-            borderColor: '[#7fbbb3]',
-            dotColor: '[#7fbbb3]',
-            delay: '0.2s'
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -320,7 +306,7 @@ function Experience() {
                     children: "Experiência Profissional"
                 }, void 0, false, {
                     fileName: "[project]/app/components/Experience.tsx",
-                    lineNumber: 28,
+                    lineNumber: 18,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -335,7 +321,7 @@ function Experience() {
                                     className: `absolute w-3 h-3 bg-${exp.dotColor} rounded-full -left-2 top-2 animate-pulse-soft`
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Experience.tsx",
-                                    lineNumber: 32,
+                                    lineNumber: 22,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -343,7 +329,7 @@ function Experience() {
                                     children: exp.title
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Experience.tsx",
-                                    lineNumber: 33,
+                                    lineNumber: 23,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -355,7 +341,7 @@ function Experience() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/Experience.tsx",
-                                    lineNumber: 34,
+                                    lineNumber: 24,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -363,7 +349,7 @@ function Experience() {
                                     children: exp.description
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Experience.tsx",
-                                    lineNumber: 35,
+                                    lineNumber: 25,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -373,34 +359,34 @@ function Experience() {
                                             children: tag
                                         }, tag, false, {
                                             fileName: "[project]/app/components/Experience.tsx",
-                                            lineNumber: 40,
+                                            lineNumber: 30,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Experience.tsx",
-                                    lineNumber: 38,
+                                    lineNumber: 28,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "[project]/app/components/Experience.tsx",
-                            lineNumber: 31,
+                            lineNumber: 21,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/app/components/Experience.tsx",
-                    lineNumber: 29,
+                    lineNumber: 19,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/components/Experience.tsx",
-            lineNumber: 27,
+            lineNumber: 17,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/components/Experience.tsx",
-        lineNumber: 26,
+        lineNumber: 16,
         columnNumber: 5
     }, this);
 }
@@ -419,33 +405,23 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 function Projects() {
     const projects = [
         {
-            title: 'E-Commerce Platform',
-            desc: 'Plataforma completa de e-commerce com React e Node.js',
+            title: 'Unipet',
+            desc: 'Plataforma de adoção de pets com sistema de busca avançado',
             img: '/images/project-1.jpg',
             tags: [
                 'React',
                 'Node.js',
-                'MongoDB'
+                'mysql'
             ]
         },
         {
-            title: 'Task Manager App',
-            desc: 'Aplicativo de gerenciamento de tarefas em tempo real',
+            title: 'Linux Pedia Api',
+            desc: 'API RESTful para consulta de comandos Linux',
             img: '/images/project-2.jpg',
             tags: [
-                'React',
-                'Firebase',
-                'Tailwind'
-            ]
-        },
-        {
-            title: 'Portfolio Site',
-            desc: 'Site profissional com design minimalista',
-            img: '/images/project-3.jpg',
-            tags: [
-                'Next.js',
-                'Tailwind',
-                'TypeScript'
+                'NodeJs',
+                'Java-script',
+                'Bootstrap'
             ]
         }
     ];
@@ -460,7 +436,7 @@ function Projects() {
                     children: "Projetos em Destaque"
                 }, void 0, false, {
                     fileName: "[project]/app/components/Projects.tsx",
-                    lineNumber: 35,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -481,12 +457,12 @@ function Projects() {
                                         className: "object-cover group-hover:scale-110 transition-transform duration-300"
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Projects.tsx",
-                                        lineNumber: 40,
+                                        lineNumber: 34,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Projects.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 33,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -500,7 +476,7 @@ function Projects() {
                                                     children: project.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Projects.tsx",
-                                                    lineNumber: 49,
+                                                    lineNumber: 43,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -515,18 +491,18 @@ function Projects() {
                                                         d: "M9 5l7 7-7 7"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/Projects.tsx",
-                                                        lineNumber: 51,
+                                                        lineNumber: 45,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Projects.tsx",
-                                                    lineNumber: 50,
+                                                    lineNumber: 44,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/Projects.tsx",
-                                            lineNumber: 48,
+                                            lineNumber: 42,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -534,7 +510,7 @@ function Projects() {
                                             children: project.desc
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/Projects.tsx",
-                                            lineNumber: 54,
+                                            lineNumber: 48,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -544,40 +520,40 @@ function Projects() {
                                                     children: tag
                                                 }, tag, false, {
                                                     fileName: "[project]/app/components/Projects.tsx",
-                                                    lineNumber: 57,
+                                                    lineNumber: 51,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/Projects.tsx",
-                                            lineNumber: 55,
+                                            lineNumber: 49,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/Projects.tsx",
-                                    lineNumber: 47,
+                                    lineNumber: 41,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, i, true, {
                             fileName: "[project]/app/components/Projects.tsx",
-                            lineNumber: 38,
+                            lineNumber: 32,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/app/components/Projects.tsx",
-                    lineNumber: 36,
+                    lineNumber: 30,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/components/Projects.tsx",
-            lineNumber: 34,
+            lineNumber: 28,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/components/Projects.tsx",
-        lineNumber: 33,
+        lineNumber: 27,
         columnNumber: 5
     }, this);
 }
@@ -705,20 +681,20 @@ function Contact() {
     const contactItems = [
         {
             title: 'Email',
-            url: 'mailto:seu@email.com',
-            text: 'seu@email.com',
+            url: 'mailto:vitorevangelista0557@email.com',
+            text: 'vitorevangelista0557@email.com',
             delay: '0.1s'
         },
         {
             title: 'LinkedIn',
             url: '#',
-            text: 'linkedin.com/in/seu-perfil',
+            text: 'linkedin.com/in/vitorevangelista',
             delay: '0.2s'
         },
         {
             title: 'GitHub',
             url: '#',
-            text: 'github.com/seu-usuario',
+            text: 'github.com/vito-ysl',
             delay: '0.3s'
         }
     ];

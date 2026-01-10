@@ -10,23 +10,17 @@ interface Project {
 export default function Projects() {
   const projects: Project[] = [
     {
-      title: 'E-Commerce Platform',
-      desc: 'Plataforma completa de e-commerce com React e Node.js',
+      title: 'Unipet',
+      desc: 'Plataforma de adoção de pets com sistema de busca avançado',
       img: '/images/project-1.jpg',
-      tags: ['React', 'Node.js', 'MongoDB'],
+      tags: ['React', 'Node.js', 'mysql' ],
     },
     {
-      title: 'Task Manager App',
-      desc: 'Aplicativo de gerenciamento de tarefas em tempo real',
+      title: 'Linux Pedia Api',
+      desc: 'API RESTful para consulta de comandos Linux',
       img: '/images/project-2.jpg',
-      tags: ['React', 'Firebase', 'Tailwind'],
-    },
-    {
-      title: 'Portfolio Site',
-      desc: 'Site profissional com design minimalista',
-      img: '/images/project-3.jpg',
-      tags: ['Next.js', 'Tailwind', 'TypeScript'],
-    },
+      tags: ['NodeJs', 'Java-script', 'Bootstrap'],
+    }
   ];
 
   return (

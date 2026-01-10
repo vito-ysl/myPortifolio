@@ -1,25 +1,15 @@
 export default function Experience() {
   const experiences = [
     {
-      title: 'Full Stack Developer',
-      company: 'Empresa XYZ',
+      title: 'Junior Developer',
+      company: 'Prefeitura Municipal de Presidente Bernades',
       period: '2024 - Presente',
-      description: 'Desenvolvimento de aplicações web usando React e Node.js. Implementação de APIs REST e integração com banco de dados.',
-      tags: ['React', 'Node.js', 'TypeScript'],
+      description: 'Desenvolvimento de aplicações web usando React e Next.js. Implementação de APIs REST e integração com banco de dados.',
+      tags: ['React', 'Next.js', 'TypeScript'],
       borderColor: '[#a7c957]',
       dotColor: '[#a7c957]',
       delay: '0.1s',
-    },
-    {
-      title: 'Frontend Developer',
-      company: 'Startup ABC',
-      period: '2023 - 2024',
-      description: 'Criação de interfaces responsivas e otimizadas. Trabalho em equipe com design e backend.',
-      tags: ['React', 'Tailwind', 'Next.js'],
-      borderColor: '[#7fbbb3]',
-      dotColor: '[#7fbbb3]',
-      delay: '0.2s',
-    },
+    }
   ];
 
   return (

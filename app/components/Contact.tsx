@@ -9,20 +9,20 @@ export default function Contact() {
   const contactItems: ContactItem[] = [
     {
       title: 'Email',
-      url: 'mailto:seu@email.com',
-      text: 'seu@email.com',
+      url: 'mailto:vitorevangelista0557@email.com',
+      text: 'vitorevangelista0557@email.com',
       delay: '0.1s',
     },
     {
       title: 'LinkedIn',
       url: '#',
-      text: 'linkedin.com/in/seu-perfil',
+      text: 'linkedin.com/in/vitorevangelista',
       delay: '0.2s',
     },
     {
       title: 'GitHub',
       url: '#',
-      text: 'github.com/seu-usuario',
+      text: 'github.com/vito-ysl',
       delay: '0.3s',
     },
   ];
