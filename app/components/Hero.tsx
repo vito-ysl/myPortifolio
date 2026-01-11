@@ -24,7 +24,7 @@ export default function Hero() {
             <div className="relative w-64 h-64 md:w-80 md:h-80 animate-float hover:scale-110 transition-transform duration-300">
               <Image
                 src="/images/profile.jpg"
-                alt="Vitor Evangelista"
+                alt="foto do programador"
                 fill
                 className="rounded-lg object-cover border-2 border-[#a7c957]"
                 priority
