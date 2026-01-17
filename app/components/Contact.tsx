@@ -21,7 +21,7 @@ export default function Contact() {
     },
     {
       title: 'GitHub',
-      url: '#',
+      url: 'https://www.github.com/vito-ysl',
       text: 'github.com/vito-ysl',
       delay: '0.3s',
     },
