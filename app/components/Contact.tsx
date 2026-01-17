@@ -15,8 +15,8 @@ export default function Contact() {
     },
     {
       title: 'LinkedIn',
-      url: '#',
-      text: 'linkedin.com/in/vitorevangelista',
+      url: 'https://www.linkedin.com/in/vitoreoliviera/',
+      text: 'linkedin.com/in/vitoreoliviera',
       delay: '0.2s',
     },
     {

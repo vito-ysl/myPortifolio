@@ -1,9 +1,9 @@
 export default function Experience() {
   const experiences = [
     {
-      title: 'Junior Developer',
+      title: 'Senior Developer',
       company: 'Prefeitura Municipal de Presidente Bernades',
-      period: '2024 - Presente',
+      period: '2025 - Atualmente',
       description: 'Desenvolvimento de aplicações web usando React e Next.js. Implementação de APIs REST e integração com banco de dados.',
       tags: ['React', 'Next.js', 'TypeScript'],
       borderColor: '[#a7c957]',

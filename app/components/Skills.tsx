@@ -18,7 +18,7 @@ export default function Skills() {
     },
     {
       title: 'Ferramentas',
-      items: ['Git & GitHub', 'Docker', 'VS Code', 'Figma'],
+      items: ['Git & GitHub', 'Docker', 'VS Code', 'NeoVim'],
       delay: '0.3s',
     },
   ];
