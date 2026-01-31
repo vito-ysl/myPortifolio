@@ -1,11 +1,11 @@
 export default function Experience() {
   const experiences = [
     {
-      title: 'Senior Developer',
-      company: 'Prefeitura Municipal de Presidente Bernades',
-      period: '2025 - Atualmente',
-      description: 'Desenvolvimento de aplicações web usando React e Next.js. Implementação de APIs REST e integração com banco de dados.',
-      tags: ['React', 'Next.js', 'TypeScript'],
+      title: 'Desenvolvedor de Software',
+      company: 'Prefeitura Municipal de Presidente Bernardes (MG)',
+      period: 'Jan/2025 – Atual (~1 ano)',
+      description: `Situação: Necessidade de manutenção, evolução e estabilidade do portal institucional do município, garantindo compatibilidade com diferentes dispositivos, rastreabilidade de acessos e conformidade com padrões modernos da web.\n\nAção: Atuei no desenvolvimento e manutenção de aplicações web utilizando JavaScript, jQuery e Bootstrap, realizando ajustes em páginas responsivas, criação e manutenção de componentes reutilizáveis, integração e configuração de ferramentas de monitoramento como Google Analytics e Google Tag Manager, além de suporte à estrutura de CMS e ao ambiente de servidor web institucional.\n\nResultado: Portal institucional estável e monitorado, com melhoria na rastreabilidade do comportamento dos usuários, redução de problemas de layout e maior consistência de navegação em diferentes dispositivos e resoluções.`,
+      tags: ['JavaScript', 'jQuery', 'Bootstrap', 'HTML', 'CSS', 'Google Analytics', 'Google Tag Manager', 'CMS', 'Web Hosting', 'Responsive Design'],
       borderColor: '[#a7c957]',
       dotColor: '[#a7c957]',
       delay: '0.1s',
